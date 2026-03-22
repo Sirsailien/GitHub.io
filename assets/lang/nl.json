@@ -1,0 +1,468 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "elearning": "E-learning",
+    "coaching": "Coaching",
+    "about": "Over mij",
+    "newsletter": "Nieuwsbrief",
+    "sv": "Shifting Visuals",
+    "call": "Plan een gesprek"
+  },
+  "dropdown": {
+    "commercial": "Commercieel werk",
+    "documentary": "Documentaires",
+    "fiction": "Fictie",
+    "music": "Muziekvideo's",
+    "youtube": "YouTube-video's"
+  },
+  "footer": {
+    "tos": "Algemene voorwaarden",
+    "ps": "Privacybeleid",
+    "top": "Terug naar boven",
+    "closer": "© 2025 24Film | Django van den Busken. Alle rechten voorbehouden."
+  },
+  "index": {
+    "meta": {
+      "title": "24Film.nl - Homepage",
+      "description": "Professioneel cinematografisch portfolio met commercieel werk, documentaires en creatieve filmproducties."
+    },
+    "hero": {
+      "title": "Django van den Busken",
+      "subtitle": "Regisseur & Producer",
+      "button_portfolio": "Bekijk portfolio",
+      "button_contact": "Neem contact op"
+    },
+    "about": {
+      "title": "Mijn visie",
+      "paragraph1": "Mijn naam is Django van den Busken. Voor mij draait visie niet om het opleggen van mijn eigen stijl: het draait juist om luisteren. Ik wil begrijpen welke boodschap je wilt delen en welk verhaal je wilt vertellen. Dan gebruik ik mijn 12 jaar ervaring, gecombineerd met mijn creativiteit, om dat verhaal tot leven te brengen.",
+      "paragraph2": "Mijn werk draait om het vastleggen van realiteit: diepgang in een interview, de visie van een bedrijf, de luchtigheid van een grap, de waarheid in een performance. Ik geloof dat emotie, subtiel of overweldigend, excentriek of serieus, betekenis geeft aan alles wat we zien. Dat is wat ik wil vangen: eerlijkheid, menselijkheid en realiteit.",
+      "projects": "Voltooide projecten",
+      "experience": "Jaren ervaring",
+      "education": "Jaren aan relevante opleidingen"
+    },
+    "brands": {
+      "title": "Merken waar we mee hebben gewerkt"
+    },
+    "portfolio": {
+      "title": "Uitgelicht werk",
+      "item1": "Werkwijzernaarwerk",
+      "item2": "Van niets iets maken",
+      "item3": "404CLASSIC - Yea",
+      "button": "Bekijk volledige portfolio"
+    },
+    "booking": {
+      "title": "Plan een gesprek of stuur een bericht",
+      "cal_title": "Plan een gesprek",
+      "cal_subtitle": "Kies een tijd die jou uitkomt.",
+      "form_title": "Stuur een bericht",
+      "form_subtitle": "Liever e-mail? Gebruik het formulier. We reageren zo snel mogelijk!"
+    },
+    "contact": {
+      "title": "Neem contact op",
+      "name": "Jouw naam",
+      "email": "E-mailadres",
+      "message": "Jouw bericht",
+      "button": "Verstuur bericht"
+    }
+  },
+  "commercial": {
+    "meta": {
+      "title": "Commercieel werk",
+      "description": "Professionele cinematografische producties en branded content."
+    },
+    "banner": {
+      "title": "Commercieel werk",
+      "subtitle": "Een selectie van onze favoriete projecten, met verschillende soorten commerciële producties en branded content"
+    },
+    "defaulttext": {
+      "credits": "Credits",
+      "role": "Mijn rol in deze productie"
+    },
+    "9": {
+      "title": "'UniqueNL' Live set opnames",
+      "desc": "Voor het bedrijf UniqueNL regisseerde en produceerde ik een serie video’s die unieke locaties in Nederland combineert met muziek. We maakten video’s op verschillende plekken, telkens met een andere artiest en stijl. Het doel was om visueel sterke content te maken die de schoonheid van de locaties laat zien én de artiesten en hun muziek promoot. Mijn taak was het neerzetten van de overkoepelende visie en het regisseren van specifieke shots en set-ups.",
+      "role": "Regisseur, Producer",
+      "credit1": "Camera: Nihal Gozutok, Justen van Schaik, Paula Achuama",
+      "credit2": "Drone: Koen Groot Koerkamp",
+      "credit3": "Technische support: Jairo Scope & Dylan Langenberg"
+    },
+    "10": {
+      "title": "'Werken bij Praxis' Content",
+      "desc": "Een serie video’s voor Praxis om te communiceren met (oude) medewerkers, nieuwe collega’s en potentiële sollicitanten. De video’s laten de werkomgeving en cultuur zien, met droge humor en een eenvoudige visuele stijl om het toegankelijker en herkenbaarder te maken. De regie wisselde; ik regisseerde er meerdere, editte de meeste en was betrokken bij het creatieve proces van allemaal. In deze specifieke video probeerden we een ‘brainrot edit’ te maken die aansluit bij een mannelijke tienerdoelgroep.",
+      "role": "Regisseur, Editor, Allround creative",
+      "credit1": "Regie: Bo Spindelaar, Martijn Dolfing, Lotte Knechten en anderen",
+      "credit2": "Montage: Lotte Knechten, Ivar Hoefs, Nathalie Breunesse en anderen"
+    },
+    "11": {
+      "title": "'Het Nest' Interactieve video",
+      "desc": "Een interactieve video met een komische insteek om kijkers rond te leiden door de in-house studio’s van VideoBird.",
+      "role": "Regisseur",
+      "credit1": "Presentatie: Floris Modderman en Yvon Lenssinck",
+      "credit2": "Assistentie: Nathalie Breunesse"
+    },
+    "12": {
+      "title": "'Huisarts en Pensioen' E-learning",
+      "desc": "Een serie video’s voor een e-learning over veranderingen in pensioenregelingen voor huisartsen in Nederland.",
+      "role": "Editor en allround creative",
+      "credit1": "Regie: Bo Spindelaar",
+      "credit2": "Cinematografie: Thomas Liebe"
+    },
+    "13": {
+      "title": "'Hoe?Zo!Show' Student Introductions",
+      "desc": "Een serie video’s voor Hoe?Zo!Show, een YouTube-kanaal dat wetenschappelijke concepten op een leuke en toegankelijke manier uitlegt. Deze serie introduceerde verschillende soorten universitaire opleidingen aan kinderen, aan de hand van foto’s die studenten maken van hun werk en leven.",
+      "role": "Editor",
+      "credit1": "Regie: Bo Spindelaar",
+      "credit2": "Camera: Nathalie Breunesse"
+    },
+    "14": {
+      "title": "'Green Mushroom Farm' Kookvideo’s",
+      "desc": "Een serie kookvideo’s voor Green Mushroom Farm, een bedrijf dat het gebruik van paddenstoelen op een duurzame manier promoot. De video’s tonen hoe veelzijdig en makkelijk paddenstoelen zijn in de keuken. We kozen voor unieke camera-angles en een eenvoudige, vloeiende montage.",
+      "role": "Allround creative, Editor",
+      "credit1": "Regie: Floran Swanborn"
+    },
+    "15": {
+      "title": "'New10' Showtime-video",
+      "desc": "Voor een interne eindejaarsbijeenkomst van New10 werd ik gevraagd een korte video te schrijven en te monteren met hoogtepunten van het jaar. De video moest lichthartig en fun zijn, maar tegelijk de resultaten en mijlpalen helder en aantrekkelijk communiceren.",
+      "role": "Concept, Editor",
+      "credit1": "VFX: Jamal Haynes"
+    },
+    "16": {
+      "title": "'GrowGo' E-learning-stijl infomercial",
+      "desc": "Voor deze video voor GrowGo was mijn taak om het script uit te breiden en met de VFX-editor af te stemmen hoe de graphics in het verhaal geïntegreerd konden worden. Zo werd de video interessanter en boeiender, terwijl alle benodigde informatie over de service duidelijk bleef.",
+      "role": "Editor, Allround creative",
+      "credit1": "Regie: Bo Spindelaar",
+      "credit2": "Cinematografie: Thomas Liebe",
+      "credit3": "VFX: Jamal Haynes"
+    },
+    "17": {
+      "title": "'New10' Commercial",
+      "desc": "Voor deze commercial voor New10 was ik betrokken in de concept- en scriptfase. Ik hielp mee aan het ontwikkelen van het idee en de boodschap. Mijn belangrijkste bijdrage was het concept van de opeenvolgende productiestappen die uiteindelijk leidden tot het eindproduct van de letters, als symbool voor de groei en vooruitgang die het bedrijf wil communiceren.",
+      "role": "Concept",
+      "credit1": "Regie: Bo Spindelaar",
+      "credit2": "Cinematografie: Thomas Liebe"
+    },
+    "18": {
+      "title": "'Praxis Makers Beurs' Aankondiging 2025",
+      "desc": "Deze campagnevideo voor Praxis was oorspronkelijk bedoeld als een leuke interne aankondiging voor de Makersbeurs, maar werd uiteindelijk ook ingezet als commercial om het event te promoten. De video moest communiceren dat ‘hands-on’ en AI niet per se hand in hand gaan.",
+      "role": "Editor",
+      "credit1": "Regie: Bo Spindelaar",
+      "credit2": "Cinematografie: Thomas Liebe",
+      "credit3": "VFX: Jamal Haynes"
+    },
+    "19": {
+      "title": "'Het verhaal van VTi' Korte documentaire",
+      "desc": "Deze korte documentaire was een ontzettend leuke uitdaging. Ik werkte nauw samen met de regisseur om meerdere interviews te vormen tot één samenhangend verhaal, waarin de verschillende anekdotes in elkaar grijpen en elkaar versterken. De video ging over de uitdagingen bij het oprichten van het bedrijf en de optimistische visie voor de toekomst.",
+      "role": "Editor",
+      "credit1": "Regie: Kristjan Knigge",
+      "credit2": "Cinematografie: Bo Spindelaar"
+    },
+    "20": {
+      "title": "'Odraz' Commercial",
+      "desc": "Deze commercial werd in drie dagen gedraaid en gemonteerd. Een uitdaging, omdat ik de graphics en montage vooraf moest previsualiseren en vervolgens de edit dezelfde dag als de shoot moest aanpassen en afronden. Dit alles met storyboard, voice-over en meerdere graphics die bij de stijl van het bedrijf passen en op een entertainende en beknopte manier de waarde van het product communiceren.",
+      "role": "Regisseur",
+      "credit1": "Acteur: Koen de Groot",
+      "credit2": "PA: Jim Dings"
+    },
+    "21": {
+      "title": "'WerkwijzerNaarWerk' Infomercial",
+      "desc": "Deze infomercial promoot WerkwijzernaarWerk: een service die mensen helpt de baan te vinden die bij hen past én hen begeleidt bij solliciteren, het sollicitatiegesprek en het behouden van hun functie na indiensttreding. De video heeft een luchtige toon, want het moet wel leuk blijven. Die lichtere toon past ook beter bij het bedrijf: ze willen echt contact maken en het proces van werk vinden zo makkelijk en leuk mogelijk maken.",
+      "role": "Regisseur, Producer",
+      "credit1": "Actrice: Tanya Romana",
+      "credit2": "Eerste presentator: Sabrina Versteeg",
+      "credit3": "Tweede presentator: Clarence Dosoe",
+      "credit4": "Geluid: Brian Ligthart"
+    },
+    "22": {
+      "title": "'VN-Verdrag Handicap' E-learning (Work in Progress)",
+      "desc": "Informatie over de juridische basis rond het VN-Verdrag inzake de rechten van personen met een handicap, en hoe dit in Nederland doorwerkt, is schaars. Deze e-learning is gemaakt om mensen te informeren over het verdrag en de implicaties voor het Nederlandse recht. De e-learning is in nauwe samenwerking met de opdrachtgever en de presentator, Jiska Ogier, ontwikkeld om de inhoud zowel correct als boeiend te maken.",
+      "role": "Regisseur, Producer",
+      "credit1": "Presentatie: Jiska Ogier"
+    }
+  },
+  "documentaries": {
+    "meta": {
+      "title": "Documentaires",
+      "description": "Documentaireportfolio"
+    },
+    "banner": {
+      "title": "Documentaires",
+      "subtitle": "Waar echte menselijke connecties centraal staan"
+    },
+    "101": {
+      "title": "De Peperwortel: wegens gebrek aan gezette orde (Work in Progress)",
+      "desc": "De Peperwortel, wegens gebrek aan gezette orde, is een documentaire over De Peperwortel: een kleine traiteur in het hart van Amsterdam. De zaak is recent gesloten en de documentaire wil de vreemde, chaotische en speelse sfeer vastleggen die lijkt te botsen met de gevestigde orde en strakke bureaucratie die restaurants nodig hebben om te overleven. Het is een liefdesbrief aan De Peperwortel en aan de mensen die het maakten tot wat het was.",
+      "role": "Regisseur, Producer",
+      "credit1": "",
+      "credit2": ""
+    },
+    "102": {
+      "title": "Soundworks: Van niets iets maken (Work in Progress)",
+      "desc": "'Van niets iets maken' is een documentaire die ik in opdracht van de gemeente Amsterdam en Soundworks maak, om de verhalen vast te leggen van ondervertegenwoordigde en vaak onzichtbare jongeren die moeite hebben hun plek te vinden binnen het systeem. Zij komen naar Soundworks voor hulp bij hun carrière en vertrekken vaak met een nieuw perspectief en hernieuwd zelfvertrouwen. De documentaire wil hun struggles en overwinningen laten zien, en hoe Soundworks hen helpt om van niets iets te maken.",
+      "role": "Regisseur, Producer",
+      "credit1": "Met Fransisco, Adama en Midas"
+    }
+  },
+  "fiction": {
+    "meta": {
+      "title": "Fictie",
+      "description": "Mijn narratieve filmportfolio"
+    },
+    "banner": {
+      "title": "Fictie",
+      "subtitle": "Narratieve filmportfolio, waar verbeelding werkelijkheid wordt"
+    },
+    "201": {
+      "title": "The Observers",
+      "desc": "Wanneer Jim ontdekt dat hij door een dodelijke muur van tv-ruis is afgesneden van de rest van de wereld, moet hij omgaan met totale isolatie en het gevoel dat hij door... iets(?) bekeken wordt.",
+      "role": "Producer, Editor",
+      "credit1": "Dan: Jordi Jansen",
+      "credit2": "Josiah: Nilson Davis",
+      "credit3": "Jim: Yuusuf van der Heide",
+      "credit4": "Kisten: Tanya Shpadi",
+      "credit5": "Regie: Enrico Pischedda",
+      "credit6": "DoP: Jurian Webbe & Justin Posthumus"
+    },
+    "203": {
+      "title": "The Correlation Between Passion and Illness",
+      "desc": "Een schizofrene dichter gelooft dat zijn medicatie zijn passie en creativiteit afneemt, maar wanneer hij stopt, kan hij werkelijkheid en waan niet meer van elkaar onderscheiden.",
+      "role": "Regisseur, Producer",
+      "credit1": "Michelangelo: Yuusuf van der Heide",
+      "credit2": "Co-regie en co-productie: Enrico Pischedda"
+    },
+    "202": {
+      "title": "Three Down Five Across",
+      "desc": "Gemaakt tijdens een 48-uurs filmuitdaging in Rotterdam in 2022. Een film over superkrachten, puzzels en actie. Deze film won de prijs voor ‘beste gebruik van karakter’. We moesten de volgende elementen gebruiken: een fleece deken, het karakter Kevin die ‘denksporter’ is, en de zin ‘Laten we even naar de feiten kijken’.",
+      "role": "Schrijver, Director of Photography",
+      "credit1": "Schurk: Pascal Deelstra",
+      "credit2": "Held: Tyrell Sparkman",
+      "credit3": "Sidekick: Abigail Meredith",
+      "credit4": "Regie: Elvis DeRad"
+    },
+    "204": {
+      "title": "3 Vrienden",
+      "desc": "90-minuten speelfilm: 'Een dramedy over drie vrienden bij wie de vriendschap langzaam een uitdaging wordt nadat ze jaren samen hebben gewoond. De film onderzoekt hun dynamiek, de obstakels die ze tegenkomen en de emotionele reis die ze doormaken terwijl ze de complexiteit van vriendschap en volwassen worden navigeren.'",
+      "role": "Regisseur, Producer",
+      "credit1": "Onur: Arman Tarhan",
+      "credit2": "Nigel: Jordi Jansen",
+      "credit3": "Martin: Cyril Witte",
+      "credit4": "DoP: Pablo Cantatore",
+      "credit5": "AD: Enrico Pischedda"
+    },
+    "205": {
+      "title": "Twin Flame (Work in Progress)",
+      "desc": "Speelfilm in productie. 'Mary, een meisje dat niets dan eenzaamheid heeft gekend, sluit een deal met de duivel om haar Twin Flame te ontmoeten door onsterfelijk te worden. Kan ze omgaan met de negatieve gevolgen van een eeuwig leven?'",
+      "role": "Regisseur",
+      "credit1": "Mary: Cassandra Sterling",
+      "credit2": "Lucifer: Aurio Vida",
+      "credit3": "Aura: Susanne Middelberg",
+      "credit4": "Producer/AD: Enrico Pischedda",
+      "credit5": "DoP: Thomas Caarls"
+    },
+    "206": {
+      "title": "Mists of Tartarus (Work in Progress)",
+      "desc": "Korte film: wanneer Orpheus’ verloofde Eurydice een gevaarlijke cocktail drinkt, moet hij afdalen in de diepste dalen van de onderwereld om haar terug te halen.",
+      "role": "Regisseur, Producer",
+      "credit1": "Orpheus: Arman Tarhan",
+      "credit2": "Eurydice: Kelly Wokke",
+      "credit3": "Hades: Aurio Vida",
+      "credit4": "Persephone: Emmanouela Reppa",
+      "credit5": "DoP: Kristjan Knigge",
+      "credit6": "AD: Enrico Pischedda"
+    }
+  },
+  "music": {
+    "meta": {
+      "title": "Muziekvideo's",
+      "description": "Een plek waar liefde voor muziek en film samenkomt"
+    },
+    "banner": {
+      "title": "Muziekvideo's",
+      "subtitle": "Een plek waar liefde voor muziek en film samenkomt"
+    },
+    "301": {
+      "title": "Mohammed Aref - Dark Sea",
+      "desc": "Mijn eerste uitstap naar muziekvideo’s is een artistieke samenwerking tussen de regisseur, de artiest en een beeldend kunstenaar. De kunstenaar bedacht het concept van mensen die samen een gezicht vormen, terwijl regisseur en artiest manieren zochten om de visuele stijl interessanter en aantrekkelijker te maken.",
+      "role": "Regisseur, Producer",
+      "credit1": "Cinematografie: Sybren Haandrikman",
+      "credit2": "Second camera: Chris de Geus"
+    },
+    "302": {
+      "title": "404 CLASSIC - Below Zero",
+      "desc": "Een video die volledig is opgenomen onder een brug in Amsterdam-West. We wilden echt die old-school streetvibe: agressief, minimalistisch en dreigend. Om dat gevoel te verkopen, lieten we alles lijken alsof het op VHS is opgenomen en afgespeeld via een vintage lcd-scherm. Maar gaandeweg komen er meer angles bij, wordt de montage gedurfder en excentrieker, en neemt het aantal cuts toe tot een climax. Moderne filmmaking met een old-school coating — precies de intentie van het nummer: new school rap in een old school verpakking.",
+      "role": "Regisseur, Editor",
+      "credit1": "Artiest: 404 Classic",
+      "credit2": "PA: Ivy Rivera"
+    },
+    "303": {
+      "title": "Lara Esterueals - Pocket of the Universe",
+      "desc": "Deze muziekvideo is een prentenboek: een kleine blik in de flirterige vriendschap tussen twee jongvolwassenen. Elk moment bouwt spanning op. Of ze uiteindelijk samenkomen, laten we aan de interpretatie van de kijker. De sfeer, belichting en het gevoel vroegen om zachtheid en tederheid — een leuke uitdaging om neer te zetten.",
+      "role": "Director of Photography, Editor",
+      "credit1": "Acteurs: Pernike de Wit, Rover van Gennep",
+      "credit2": "Regie: Lara Esteruelas"
+    },
+    "304": {
+      "title": "Lara Esteruelas - I Know",
+      "desc": "Door het licht van de ramen te gebruiken als contrast met de donkere, bijna afgrondachtige achtergrond van het podium, creëerden we een dromerige look. Tederheid zit sterk in Esteruelas’ muziek, en het was belangrijk dat op beeld te vertalen, terwijl we ook laten zien hoe snel donkere emoties de overhand kunnen nemen.",
+      "role": "Director of Photography, Editor",
+      "credit1": "Dansers: Indy Vera Bentall & Loujain Afsharzada",
+      "credit2": "Regie: Lara Esteruelas",
+      "credit3": "Choreografie: Iris van der Bergh"
+    },
+    "305": {
+      "title": "404 CLASSIC - Yea",
+      "desc": "Deze muziekvideo was een echte uitdaging: een onervaren crew, nauwelijks bewolking de hele middag en avond, en meer dan 50 shots om te draaien. Maar het is gelukt... en hoe. We gebruikten alle trucs uit het boek om dit de meest komische koortsdroom ooit te maken: absurde personages, slapstick, naadloze transitions, een 360-camera en een flinke hoeveelheid haze machines.",
+      "role": "Regisseur, Editor",
+      "credit1": "AD: Juno Maul",
+      "credit2": "PA: Destiny Strijdhaftig",
+      "credit3": "AC: Andy Kolesnikov"
+    }
+  },
+  "youtube": {
+    "meta": {
+      "title": "YouTube-video's",
+      "description": "Mijn persoonlijke YouTube-producties"
+    },
+    "banner": {
+      "title": "YouTube-video's",
+      "subtitle": "Work in Progress, binnenkort meer!"
+    },
+    "401": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "elearning": {
+    "meta": {
+      "title": "E-learning",
+      "description": "Hoogwaardige e-learning videoproductie voor onderwijs en corporate training."
+    },
+    "video": {
+      "title": "E-learning",
+      "subtitle": "We helpen jou bij het maken van jouw e-learning videomodules, van concept tot release"
+    },
+    "intro": {
+      "title": "Professionele e-learningsontwikkeling",
+      "paragraph1": "Onze focus bij het maken van een e-learningmodule is om jouw behoeften te combineren met onze expertise. We begeleiden je door het hele proces: van het schrijven en aanscherpen van het script, tot het presenteren van de informatie aan je publiek, tot het geven van de flair en stijl die je zoekt, en uiteindelijk het publiceren op een platform naar keuze.",
+      "paragraph2": "We willen aansluiten bij je doelgroep, niet alleen informatie over ze heen gooien. Ons team is erop gericht je de beste ervaring te geven tijdens het maken van je e-learningcontent, en we hebben de expertise om ervoor te zorgen dat je boodschap op een manier wordt overgebracht die aansluit bij jouw publiek.",
+      "paragraph3": "Een klein geheimpje: wist je dat onderzoek laat zien dat video e-learnings net zo effectief zijn, of zelfs effectiever, dan fysieke trainingen? En dat zonder gedoe met plannen, reiskosten, afwezigheid en met de mogelijkheid om terug te spoelen en opnieuw te kijken als je even afgeleid raakt."
+    },
+    "features": {
+      "interactive": {
+        "title": "Interactief",
+        "text": "Aansprekende content"
+      },
+      "professional": {
+        "title": "Professioneel",
+        "text": "Cinematische kwaliteit"
+      },
+      "effective": {
+        "title": "Effectief",
+        "text": "Bewezen resultaat"
+      }
+    },
+    "booking": {
+      "title": "Plan een consult",
+      "text": "Plan een gratis consult om je e-learningproject te bespreken en te kijken hoe we jouw visie tot leven kunnen brengen."
+    },
+    "contact": {
+      "title": "Neem contact op",
+      "name": "Jouw naam",
+      "email": "E-mailadres",
+      "message": "Jouw bericht",
+      "button": "Verstuur bericht"
+    }
+  },
+  "coaching": {
+    "meta": {
+      "title": "Professionele coaching",
+      "description": "Breng je filmvaardigheden en on-camera presence naar een hoger niveau met persoonlijke coaching"
+    },
+    "banner": {
+      "title": "Professionele coaching",
+      "subtitle": "Breng je filmvaardigheden en on-camera presence naar een hoger niveau met persoonlijke coaching"
+    },
+    "section": {
+      "title": "Gepersonaliseerde coaching",
+      "p1": "Nieuwe technologie maakt het mogelijk om visueel indrukwekkende content te maken met minder apparatuur dan ooit. Maar gear maakt geen sterke verhalen, daar heb je mensen voor nodig. Het zijn performances en authenticiteit die je publiek echt raken. Of het nu gaat om een diepgaand interview, een e-learningcollege of een narratieve performance: geloofwaardige aanlevering zorgt dat je boodschap blijft hangen. Ons doel is om je te helpen helder en met zelfvertrouwen te communiceren, door je on-camera presence te coachen of door je te begeleiden in het regisseren.",
+      "p2": "We bieden coaching aan zowel individuen als groepen. Persoonlijke coaching is volledig afgestemd op jouw behoeften. We starten altijd met feedback, ongeacht je ervaring. Daarna kunnen we een plan op langere termijn maken en gestructureerde sessies plannen, gericht op het verbeteren van specifieke vaardigheden.",
+      "p3": "Groepscoaching en lessen zijn beschikbaar voor bedrijven en onderwijsplatformen. Deel je doelen met ons en dan creëren we een programma wat bij jouw wensen past.",
+      "skill1": {
+        "title": "Presentatie- en acteervaardigheden",
+        "desc": "Versterk je presentatie voor de camera"
+      },
+      "skill2": {
+        "title": "Regie van acteurs",
+        "desc": "Haal de beste performances naar boven"
+      },
+      "skill3": {
+        "title": "Professionele feedback",
+        "desc": "Verbeter je werk met onze deskundigheid"
+      }
+    }
+  },
+  "book": {
+    "meta": {
+      "title": "Afspraak maken",
+      "description": "Plan een coachingsessie of neem direct contact met me op."
+    },
+    "banner": {
+      "title": "Afspraak maken",
+      "subtitle": "Bekijk mijn beschikbaarheid of laat je e-mail achter!"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Over mij - 24Film",
+      "description": "Leer meer over Django van den Busken: filmmaker, creative director en visueel verhalenverteller."
+    },
+    "banner": {
+      "title": "Over mij",
+      "subtitle": "Maak kennis met de filmmaker achter de lens"
+    },
+    "section": {
+      "name": "De man achter de camera",
+      "paragraph1": "Mijn naam is Django van den Busken. Ik maak al meer dan twaalf jaar video’s en ben al meer dan zeven jaar regisseur. Ik heb met talloze merken gewerkt aan branded content, e-learnings, socials, interne content en korte films als Creative Director, Regisseur en Editor. Ik weet natuurlijk hoe camera's werken, maar ben opgeleid als creative manager, marketeer en producer.",
+      "paragraph2": "Mensen zeiden me altijd dat creativiteit voortkomt uit totale vrijheid. Daar ben ik het niet mee eens. Ik geloof dat creativiteit ontstaat door beperkingen, en door binnen die kaders de best mogelijke oplossing te vinden. Daarom begin ik, wanneer je me benadert voor een project, graag met een uitgebreid gesprek over wat je wilt maken, en hoe ik dat binnen die maatstaven kan realiseren.",
+      "paragraph3": "Daar komt mijn visie om de hoek kijken: de balans vinden tussen jouw behoeften en mijn creatieve én praktische tools, zodat mijn stijl natuurlijk in jouw verhaal past.",
+      "stat_experience_value": "10+ jaar",
+      "stat_experience_label": "Ervaring in de sector",
+      "stat_projects_value": "200+",
+      "stat_projects_label": "Voltooide projecten",
+      "stat_awards_value": "7+",
+      "stat_awards_label": "Jaar aan relevante opleidingen"
+    },
+    "news": {
+      "title": "Blijf op de hoogte van onze nieuwste projecten",
+      "subtitle": "Schrijf je in voor onze nieuwsbrief voor exclusieve inzichten, behind-the-scenes content en updates over nieuwe projecten",
+      "required": "Dit veld is verplicht",
+      "name": "Jouw naam",
+      "email": "Vul je e-mailadres in",
+      "button": "Abonneren",
+      "privacy": "Je privacy is belangrijk voor ons. We delen je gegevens nooit."
+    }
+  },
+  "newsletter": {
+    "meta": {
+      "title": "Nieuwsbrief",
+      "description": "Schrijf je in voor nieuws, updates en nieuwe releases."
+    },
+    "banner": {
+      "title": "Schrijf je in voor onze nieuwsbrief",
+      "subtitle": "Ontvang updates direct in je inbox!"
+    },
+    "archive": {
+      "title": "Laatste nieuwsbrieven",
+      "subtitle": "Bekijk eerdere edities. (Binnenkort!)",
+      "loading": "Nieuwsbrieven laden…",
+      "empty": "Nog geen nieuwsbrieven gevonden."
+    },
+    "issues": {
+      "2026_02_01": {
+        "title": "Voorbeeldtitel nieuwsbrief"
+      },
+      "2026_01_18": {
+        "title": "Nog een voorbeeldtitel"
+      }
+    }
+  }
+}

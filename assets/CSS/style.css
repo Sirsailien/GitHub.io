@@ -1,0 +1,366 @@
+/* Google Fonts Import and Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+.video-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+ .video-container video {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+        
+.transition-all {
+            transition: all 0.3s ease;
+        }
+
+.text-shadow-subtle {
+  text-shadow: 0 3px 15px rgba(0,0,0,0.06);
+}
+
+.text-shadow-cinematic {
+  text-shadow: 0 4px 20px rgba(0,0,0,0.45);
+}
+
+.text-shadow-beige-glow {
+  text-shadow: 0 0 12px rgba(233,215,189,0.6);
+}
+h1 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+p {
+	color: rgba(78, 78, 78, 0.84);
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.card {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 16px;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+:root {
+  --header-height: 60px; /* adjust if your header is taller/shorter */
+}
+/* Video overlay theme (site-aligned, replaces "white pop" look) */
+#video-overlay{
+  align-items: center !important;     /* overrides Tailwind items-end */
+  justify-content: center !important;
+  padding: 24px;                      /* breathing room on small screens */
+  background: rgba(0, 0, 0, 0.55) !important;
+}
+
+#video-box{
+  background: rgba(230, 216, 192, 0.20) !important; /* matches your secondary tone */
+  color: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 35px 90px rgba(0,0,0,0.50);
+
+  border-radius: 24px !important;     /* overrides rounded-t-2xl */
+  width: min(92vw, 1100px) !important;
+  max-height: 82vh !important;        /* avoids touching top/bottom */
+  height: auto !important;
+
+  overflow: hidden;
+}
+/* Hero (full) overlay: prevent the modal from collapsing to a thin strip */
+#video-overlay.video-overlay-full #video-box{
+  height: 82vh !important;
+  max-height: 82vh !important;
+}
+
+/* Ensure the video area truly fills that height */
+#video-overlay.video-overlay-full #video-media{
+  height: 100% !important;
+}
+
+/* Make the inner grid scroll if content is tall */
+#video-grid,
+#video-box > .grid{
+  height: 100%;
+}
+
+/* Let text panel scroll if needed */
+#video-text,
+#video-box .p-6{
+  overflow: auto;
+}
+
+/* Text colors for dark theme */
+#video-title{ color: rgba(255, 255, 255, 0.95) !important; }
+#video-desc,
+#video-role,
+#video-credits,
+#video-credits li{ color: rgba(255, 255, 255, 0.80) !important; }
+#video-text h3{ color: rgba(233, 215, 189, 0.95) !important; }
+
+/* Optional divider on desktop split layout */
+@media (min-width: 768px){
+  #video-text{ border-left: 1px solid rgba(255, 255, 255, 0.10); }
+}
+
+/* On phones: slightly taller, still floating */
+@media (max-width: 767px){
+  #video-overlay{ padding: 14px; }
+  #video-box{
+    width: 96vw !important;
+    max-height: 88vh !important;
+    border-radius: 20px !important;
+  }
+}
+/* Make overlay section labels consistent across pages */
+#video-overlay h3[data-i18n="commercial.defaulttext.credits"],
+#video-overlay h3[data-i18n="commercial.defaulttext.role"]{
+  color: rgba(233, 215, 189, 0.95) !important;
+}
+/* overlay animation */
+.portfolio-menu { transition: opacity 0.3s ease, transform 0.3s ease; }
+
+/* active overlay class for overlay container (you use .active on overlay) */
+#portfolio-overlay.active { opacity: 1 !important; pointer-events: auto; }
+
+/* content slide */
+#portfolio-content { transform: translateY(-100%); transition: transform 0.5s ease; }
+#portfolio-content.translate-y-0 { transform: translateY(0); }
+
+/* rotate triangle */
+#portfolio-toggle.active svg { transform: rotate(180deg); }
+
+/* Smooth infinite scroll */
+@keyframes brand-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.brand-marquee {
+  display: inline-flex;
+  width: max-content;
+  animation: brand-marquee 60s linear infinite;
+  will-change: transform;
+}
+
+/* Scroll Reveal Animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease-out;
+}
+
+.reveal-stagger.visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-stagger > *:nth-child(1) { transition-delay: 0.1s; }
+.reveal-stagger > *:nth-child(2) { transition-delay: 0.3s; }
+.reveal-stagger > *:nth-child(3) { transition-delay: 0.5s; }
+.reveal-stagger > *:nth-child(4) { transition-delay: 0.7s; }
+.reveal-stagger > *:nth-child(5) { transition-delay: 0.9s; }
+
+/* Language Button Animation */
+.lang-btn img {
+  opacity: 0.7;
+}
+
+.lang-btn.selected img {
+  opacity: 1;
+  transform: scale(1.15);
+}
+.cal-embed {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 16px;
+}
+/* Mobile hamburger menu: full-screen backdrop + slide-in panel */
+.mobile-menu-backdrop{
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 260ms ease;
+  z-index: 9998;
+}
+.mobile-menu-backdrop.is-open{
+  opacity: 1;
+  pointer-events: auto; /* blocks clicks to the page */
+}
+
+.mobile-menu-panel{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: min(82vw, 360px);
+
+  transform: translateX(100%);
+  transition: transform 320ms ease;
+
+  z-index: 9999;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: -10px 0 30px rgba(0,0,0,0.25);
+
+  pointer-events: none;
+}
+.mobile-menu-panel.is-open{
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+/* Prevent scrolling behind the menu */
+body.menu-open{
+  overflow: hidden;
+  touch-action: none;
+}
+
+/* Caret: option to slide a bit + flip on open */
+.mobile-menu-panel .mobile-caret{
+  display: inline-block;
+  transition: transform 220ms ease, opacity 220ms ease;
+  transform: translateX(0) rotate(0deg);
+  opacity: 0.75;
+}
+.mobile-menu-panel details[open] > summary .mobile-caret{
+  transform: translateX(4px) rotate(180deg);
+  opacity: 1;
+}
+
+/* Menu items look like outlined pills (exclude book button + sv icon link) */
+.mobile-menu-panel a:not(.bg-accent):not(.mobile-menu-icon),
+.mobile-menu-panel details > summary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 2px 12px;
+  border-radius: 9999px;
+  border: 3px solid rgba(255, 249, 235, 0.41);
+  background: transparent;
+
+  color: rgba(251, 251, 251, 0.95);
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+/* Remove default summary marker */
+.mobile-menu-panel details > summary{
+  list-style: none;
+}
+.mobile-menu-panel details > summary::-webkit-details-marker{
+  display: none;
+}
+
+/* Hover feedback */
+.mobile-menu-panel a:not(.bg-accent):not(.mobile-menu-icon):hover,
+.mobile-menu-panel details > summary:hover{
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+/* Submenu container: animate open/close */
+.mobile-menu-panel details > .mobile-submenu{
+  display: flex !important;
+  flex-direction: column;
+
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  margin-top: 0;
+
+  pointer-events: none;
+
+  transition:
+    max-height 360ms ease,
+    opacity 260ms ease,
+    transform 360ms ease,
+    margin-top 360ms ease;
+  will-change: max-height, opacity, transform;
+}
+
+.mobile-menu-panel details[open] > .mobile-submenu{
+  max-height: 520px;
+  opacity: 1;
+  transform: translateY(0);
+  margin-top: 0.75rem;
+  pointer-events: auto;
+}
+
+/* --- Stagger: use keyframe animation (more reliable on mobile than transition-delay) --- */
+@keyframes mobileSubmenuItemIn{
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Reset state when closed */
+.mobile-menu-panel details:not([open]) > .mobile-submenu a{
+  opacity: 0;
+  transform: translateY(-6px);
+  animation: none;
+}
+
+/* Animate in when opened */
+.mobile-menu-panel details[open] > .mobile-submenu a{
+  opacity: 1;
+  transform: translateY(0);
+  animation: mobileSubmenuItemIn 160ms ease both;
+}
+
+/* Stagger delays (short + snappy) */
+.mobile-menu-panel details[open] > .mobile-submenu a:nth-child(1){ animation-delay: 30ms; }
+.mobile-menu-panel details[open] > .mobile-submenu a:nth-child(2){ animation-delay: 70ms; }
+.mobile-menu-panel details[open] > .mobile-submenu a:nth-child(3){ animation-delay: 100ms; }
+.mobile-menu-panel details[open] > .mobile-submenu a:nth-child(4){ animation-delay: 130ms; }
+.mobile-menu-panel details[open] > .mobile-submenu a:nth-child(5){ animation-delay: 160ms; }
+
+/* Respect reduced-motion settings */
+@media (prefers-reduced-motion: reduce){
+  .mobile-menu-backdrop,
+  .mobile-menu-panel,
+  .mobile-menu-panel details > .mobile-submenu,
+  .mobile-menu-panel .mobile-caret{
+    transition: none !important;
+  }
+  .mobile-menu-panel details[open] > .mobile-submenu a{
+    animation: none !important;
+  }
+}

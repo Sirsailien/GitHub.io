@@ -1,0 +1,89 @@
+/* Google Fonts Import and Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+.video-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+ .video-container video {
+            min-width: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+.transition-all {
+            transition: all 0.3s ease;
+        }
+
+
+h1 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+p {
+	color: rgb(107, 114, 128);
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.card {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+/* Dropdown base (safe defaults in case some Tailwind classes differ) */
+.dropdown .dropdown-menu {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.dropdown.show .dropdown-menu {
+  display: block !important;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* Item stagger + tiny pop */
+.dropdown .dropdown-item {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 240ms ease, transform 240ms cubic-bezier(.2,.9,.2,1);
+}
+
+/* Reveal items when open */
+.dropdown.show .dropdown-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered delays */
+.dropdown.show .dropdown-item:nth-child(1) { transition-delay: 0.04s; }
+.dropdown.show .dropdown-item:nth-child(2) { transition-delay: 0.09s; }
+.dropdown.show .dropdown-item:nth-child(3) { transition-delay: 0.14s; }
+.dropdown.show .dropdown-item:nth-child(4) { transition-delay: 0.19s; }
+.dropdown.show .dropdown-item:nth-child(5) { transition-delay: 0.24s; }
+
+.dropdown .dropdown-menu { z-index: 9999; }
+
+
