@@ -5,7 +5,7 @@ let headerContent = `
   <div class="container mx-auto px-6 py-3 flex items-center justify-between relative">
 
     <!-- Left: logo -->
-    <a href="index.html" class="text-2xl font-bold text-white hover:text-accent transition-all">
+    <a href="/" class="text-2xl font-bold text-white hover:text-accent transition-all">
       24Film
     </a>
 
@@ -21,15 +21,15 @@ let headerContent = `
         </svg>
       </button>
 
-      <a href="elearning.html" class="text-white hover:text-accent transition" data-i18n="header.elearning"></a>
-      <a href="coaching.html" class="text-white hover:text-accent transition" data-i18n="header.coaching"></a>
-      <a href="about.html" class="text-white hover:text-accent transition" data-i18n="header.about"></a>
-      <a href="newsletter.html" class="text-white hover:text-accent transition" data-i18n="header.newsletter"></a>
+      <a href="/elearning" class="text-white hover:text-accent transition" data-i18n="header.elearning"></a>
+      <a href="/coaching" class="text-white hover:text-accent transition" data-i18n="header.coaching"></a>
+      <a href="/about" class="text-white hover:text-accent transition" data-i18n="header.about"></a>
+      <a href="/newsletter" class="text-white hover:text-accent transition" data-i18n="header.newsletter"></a>
     </nav>
 
     <!-- Right: controls (desktop) -->
     <div class="hidden xl:flex items-center gap-3 shrink-0">
-      <a href="book.html"
+      <a href="/book"
          class="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-full font-medium transition-all shadow-lg whitespace-nowrap"
          data-i18n="header.call"></a>
 
@@ -94,20 +94,20 @@ const mobileMenuHTML = `
         <span class="mobile-caret" aria-hidden="true">▾</span>
       </summary>
       <div class="mobile-submenu mt-3 flex flex-col gap-3 pl-2">
-        <a href="commercial.html" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.commercial"></a>
-        <a href="documentaries.html" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.documentary"></a>
-        <a href="fiction.html" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.fiction"></a>
-        <a href="musicvideos.html" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.music"></a>
-        <a href="youtubevideos.html" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.youtube"></a>
+        <a href="/commercial" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.commercial"></a>
+        <a href="/documentaries" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.documentary"></a>
+        <a href="/fiction" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.fiction"></a>
+        <a href="/musicvideos" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.music"></a>
+        <a href="/youtubevideos" class="text-white/90 hover:text-accent transition" data-i18n="dropdown.youtube"></a>
       </div>
     </details>
 
-    <a href="elearning.html" class="text-white hover:text-accent transition" data-i18n="header.elearning"></a>
-    <a href="coaching.html" class="text-white hover:text-accent transition" data-i18n="header.coaching"></a>
-    <a href="about.html" class="text-white hover:text-accent transition" data-i18n="header.about"></a>
-    <a href="newsletter.html" class="text-white hover:text-accent transition" data-i18n="header.newsletter"></a>
+    <a href="/elearning" class="text-white hover:text-accent transition" data-i18n="header.elearning"></a>
+    <a href="/coaching" class="text-white hover:text-accent transition" data-i18n="header.coaching"></a>
+    <a href="/about" class="text-white hover:text-accent transition" data-i18n="header.about"></a>
+    <a href="/newsletter" class="text-white hover:text-accent transition" data-i18n="header.newsletter"></a>
 
-    <a href="book.html"
+    <a href="/book"
        class="bg-accent hover:bg-accent/90 text-white px-4 py-3 rounded-full font-medium transition-all shadow-lg text-center"
        data-i18n="header.call"></a>    
 
@@ -140,26 +140,26 @@ const overlayHTML = `
 
     <div class="grid grid-cols-5 gap-4">
       <div class="col-span-3 flex justify-start gap-4">
-        <a href="commercial.html" class="relative group w-1/3">
-          <img src="./assets/Images/portfolio/Commercial/commercial-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+        <a href="/commercial" class="relative group w-1/3">
+          <img src="/assets/Images/portfolio/Commercial/commercial-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.commercial"></span>
         </a>
-        <a href="documentaries.html" class="relative group w-1/3">
-          <img src="./assets/Images/portfolio/Documentary/documentaries-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+        <a href="/documentaries" class="relative group w-1/3">
+          <img src="/assets/Images/portfolio/Documentary/documentaries-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.documentary"></span>
         </a>
-        <a href="fiction.html" class="relative group w-1/3">
-          <img src="./assets/Images/portfolio/Fiction/fiction-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+        <a href="/fiction" class="relative group w-1/3">
+          <img src="/assets/Images/portfolio/Fiction/fiction-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.fiction"></span>
         </a>
       </div>
       <div class="col-span-2 flex justify-end gap-4">
-        <a href="musicvideos.html" class="relative group w-1/2">
-          <img src="./assets/Images/portfolio/Music/music-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+        <a href="/musicvideos" class="relative group w-1/2">
+          <img src="/assets/Images/portfolio/Music/music-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.music"></span>
         </a>
-        <a href="youtubevideos.html" class="relative group w-1/2">
-          <img src="./assets/Images/portfolio/Youtube/youtube-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+        <a href="/youtubevideos" class="relative group w-1/2">
+          <img src="/assets/Images/portfolio/Youtube/youtube-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.youtube"></span>
         </a>
       </div>
