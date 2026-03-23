@@ -149,7 +149,7 @@ const overlayHTML = `
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.documentary"></span>
         </a>
         <a href="fiction.html" class="relative group w-1/3">
-          <img src="./assets/Images/portfolio/Fictiontemp/fictiontemp-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
+          <img src="./assets/Images/portfolio/Fiction/fiction-thumb.jpg" alt="" class="w-full rounded-xl transition-transform duration-300 group-hover:scale-105 group-hover:brightness-75" />
           <span class="absolute inset-0 flex items-center justify-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-i18n="dropdown.fiction"></span>
         </a>
       </div>
