@@ -53,7 +53,7 @@
           role: "music.305.role",
           credits: ["music.305.credit1", "music.305.credit2", "music.305.credit3"],
         },
-        thumb: "./assets/Images/portfolio/music/music-thumb.jpg",
+        thumb: "./assets/Images/portfolio/Music/music-thumb.jpg",
       }
   ];
 

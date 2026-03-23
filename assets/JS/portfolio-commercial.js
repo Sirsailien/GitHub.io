@@ -71,7 +71,7 @@
     },
     {
     id: 15,
-    video: "https:/www.youtube.com/embed/4YG-aHOvwJs", //New10 Showtime Video
+    video: "https://www.youtube.com/embed/4YG-aHOvwJs", //New10 Showtime Video
     i18n: {
       title: "commercial.15.title",
       desc: "commercial.15.desc",
