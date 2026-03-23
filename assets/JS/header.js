@@ -10,7 +10,7 @@ let headerContent = `
     </a>
 
     <!-- Desktop nav -->
-    <nav class="hidden md:flex items-center space-x-6 text-lg font-medium absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+    <nav class="hidden xl:flex items-center space-x-5 text-lg font-medium absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
       <!-- Portfolio (desktop overlay trigger) -->
       <button id="portfolio-toggle"
               type="button"
@@ -28,7 +28,7 @@ let headerContent = `
     </nav>
 
     <!-- Right: controls (desktop) -->
-    <div class="hidden md:flex items-center gap-3 shrink-0">
+    <div class="hidden xl:flex items-center gap-3 shrink-0">
       <a href="book.html"
          class="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-full font-medium transition-all shadow-lg whitespace-nowrap"
          data-i18n="header.call"></a>
@@ -58,7 +58,7 @@ let headerContent = `
     </div>
 
     <!-- Mobile: hamburger -->
-    <div class="md:hidden flex items-center gap-3">
+    <div class="xl:hidden flex items-center gap-3">
       <button class="lang-btn group" data-lang="en" type="button">
         <img src="/assets/Images/flags/flag-en.svg" class="w-7 h-7" alt="EN" />
       </button>
@@ -85,7 +85,7 @@ let headerContent = `
 const mobileMenuHTML = `
 <div id="mobile-menu-backdrop" class="mobile-menu-backdrop" aria-hidden="true"></div>
 
-<div id="mobile-menu" class="md:hidden mobile-menu-panel bg-primary/95 backdrop-blur-md" aria-hidden="true">
+<div id="mobile-menu" class="xl:hidden mobile-menu-panel bg-primary/95 backdrop-blur-md" aria-hidden="true">
   <div class="px-6 py-6 flex flex-col gap-4 text-lg">
 
     <details class="group">
@@ -133,7 +133,7 @@ const mobileMenuHTML = `
 // Desktop-only portfolio overlay (hidden on mobile)
 const overlayHTML = `
 <div id="portfolio-overlay"
-     class="hidden md:flex fixed left-0 right-0 bottom-0 bg-black/70 flex-col items-start justify-start opacity-0 pointer-events-none transition-opacity duration-700 z-40"
+     class="hidden xl:flex fixed left-0 right-0 bottom-0 bg-black/70 flex-col items-start justify-start opacity-0 pointer-events-none transition-opacity duration-700 z-40"
      style="top:var(--header-height,72px)">
   <div id="portfolio-content"
        class="w-full max-w-6xl mt-6 transform -translate-y-full transition-transform duration-700 ease-out mx-auto px-6">
@@ -262,7 +262,7 @@ const openMenu = () => {
 
   // Close when resizing to desktop
   window.addEventListener("resize", () => {
-    if (window.innerWidth >= 768) closeMenu();
+    if (window.innerWidth >= 1280) closeMenu();
   });
 })();
 

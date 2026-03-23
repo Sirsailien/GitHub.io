@@ -16,7 +16,7 @@ function initSite() {
         e.stopImmediatePropagation();
         e.stopPropagation();
 
-        const isDesktop = window.matchMedia("(min-width: 768px)").matches;
+        const isDesktop = window.matchMedia("(min-width: 1280px)").matches;
 
         if (isDesktop) {
           // Desktop: open the portfolio overlay
