@@ -1,7 +1,7 @@
 // /assets/JS/header.js
 
 let headerContent = `
-<header class="fixed top-0 left-0 right-0 z-50 bg-primary/80 backdrop-blur-md shadow-md">
+<header class="fixed top-0 left-0 right-0 z-[90] bg-primary/80 backdrop-blur-md shadow-md">
   <div class="container mx-auto px-6 py-3 flex items-center justify-between relative">
 
     <!-- Left: logo -->
@@ -133,7 +133,7 @@ const mobileMenuHTML = `
 // Desktop-only portfolio overlay (hidden on mobile)
 const overlayHTML = `
 <div id="portfolio-overlay"
-     class="hidden xl:flex fixed left-0 right-0 bottom-0 bg-black/70 flex-col items-start justify-start opacity-0 pointer-events-none transition-opacity duration-700 z-40"
+     class="hidden xl:flex fixed left-0 right-0 bottom-0 bg-black/70 flex-col items-start justify-start opacity-0 pointer-events-none transition-opacity duration-700 z-[80]"
      style="top:var(--header-height,72px)">
   <div id="portfolio-content"
        class="w-full max-w-6xl mt-6 transform -translate-y-full transition-transform duration-700 ease-out mx-auto px-6">
