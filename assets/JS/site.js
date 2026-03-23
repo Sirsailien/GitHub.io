@@ -172,6 +172,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   reveals.forEach((el) => observer.observe(el));
 });
+// --- Auto scroll hint after inactivity ---
+(function () {
+    let hasScrolled = false;
 
+    // Detect user scroll
+    window.addEventListener("scroll", function () {
+        hasScrolled = true;
+    });
+
+    // Wait 15 seconds
+    setTimeout(function () {
+        if (!hasScrolled) {
+            window.scrollBy({
+                top: window.innerHeight * 0.1, // scroll 30% of screen height
+                behavior: "smooth"
+            });
+        }
+    }, 15000);
+})();
 
 
