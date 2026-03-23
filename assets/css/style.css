@@ -364,3 +364,8 @@ body.menu-open{
     animation: none !important;
   }
 }
+/* Keep the newsletter embed underneath header/dropdowns */
+iframe[title="Newsletter archive"] {
+  position: relative;
+  z-index: 0;
+}
