@@ -18,6 +18,7 @@
   const textPanel = document.getElementById("video-text");
   const mediaWrap = document.getElementById("video-media");
   const nativeVideo = document.getElementById("video-native");
+  const closeBtn = document.getElementById("video-close-btn");
 
   function getCurrentLang() {
     const htmlLang = (document.documentElement.lang || "").toLowerCase();
@@ -69,10 +70,11 @@
 }
 
   function showOverlay() {
+    document.body.classList.add("video-overlay-open");
     overlay.classList.remove("pointer-events-none");
     overlay.classList.add("opacity-100");
     setTimeout(() => box.classList.remove("translate-y-full"), 20);
-  }
+}
 
   function stopMedia() {
     frame.src = "";
@@ -120,12 +122,20 @@
     overlay.classList.remove("opacity-100");
 
     setTimeout(() => {
+      document.body.classList.remove("video-overlay-open");
       overlay.classList.add("pointer-events-none");
       stopMedia();
       setLayout("split");
-    }, 300);
+  }, 300);
+}
+  if (closeBtn) {
+    closeBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      hideOverlay();
+    });
   }
-
+  
   overlay.addEventListener("click", (e) => {
     if (!box.contains(e.target)) hideOverlay();
   });

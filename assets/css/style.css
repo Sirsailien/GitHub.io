@@ -94,16 +94,21 @@ p {
   height: 100% !important;
 }
 
-/* Make the inner grid scroll if content is tall */
+/* Overlay layout */
 #video-grid,
 #video-box > .grid{
   height: 100%;
+  min-height: 0;
 }
 
-/* Let text panel scroll if needed */
+/* Only the text panel should scroll */
 #video-text,
 #video-box .p-6{
-  overflow: auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 /* Text colors for dark theme */
@@ -122,10 +127,27 @@ p {
 /* On phones: slightly taller, still floating */
 @media (max-width: 767px){
   #video-overlay{ padding: 14px; }
+
   #video-box{
     width: 96vw !important;
+    height: 88vh !important;
     max-height: 88vh !important;
     border-radius: 20px !important;
+  }
+
+  #video-grid{
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 40vh minmax(0, 1fr) !important;
+  }
+
+  #video-media{
+    height: 40vh !important;
+    min-height: 40vh !important;
+  }
+
+  #video-text{
+    height: 100%;
+    min-height: 0;
   }
 }
 /* Make overlay section labels consistent across pages */
@@ -368,4 +390,118 @@ body.menu-open{
 iframe[title="Newsletter archive"] {
   position: relative;
   z-index: 0;
+}
+/* Prevent page scroll while portfolio popup is open */
+body.video-overlay-open{
+  overflow: hidden;
+  touch-action: none;
+}
+#video-close-btn{
+  cursor: pointer;
+}
+
+@media (max-width: 767px){
+  #video-close-btn{
+    top: 10px;
+    right: 10px;
+    width: 46px;
+    height: 46px;
+    font-size: 28px;
+  }
+}
+
+/* =========================
+   Reusable page banner
+   ========================= */
+
+.page-banner{
+  /* Adjustable defaults */
+  --banner-bg: var(--secondary, #B99A81);
+  --banner-min-height-desktop: 320px;
+  --banner-min-height-mobile: 180px;
+
+  --banner-padding-top-desktop: 128px;
+  --banner-padding-bottom-desktop: 64px;
+  --banner-padding-top-mobile: 64px;
+  --banner-padding-bottom-mobile: 0px;
+
+  --banner-title-size-desktop: 3.75rem;   /* about text-6xl */
+  --banner-title-size-mobile: 2rem;       /* about text-3xl */
+  --banner-subtitle-size-desktop: 1.25rem;/* about text-xl */
+
+  --banner-gap-desktop: 14px;
+  --banner-gap-mobile: 0px;
+
+  background: var(--banner-bg);
+  min-height: var(--banner-min-height-desktop);
+  padding-top: var(--banner-padding-top-desktop);
+  padding-bottom: var(--banner-padding-bottom-desktop);
+
+  display: flex;
+  align-items: center;
+}
+
+.page-banner__inner{
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: center;
+}
+
+.page-banner__content{
+  min-height: calc(
+    var(--banner-min-height-desktop)
+    - var(--banner-padding-top-desktop)
+    - var(--banner-padding-bottom-desktop)
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--banner-gap-desktop);
+}
+
+.page-banner__title{
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: var(--banner-title-size-desktop);
+}
+
+.page-banner__subtitle{
+  margin: 0;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.45;
+  font-size: var(--banner-subtitle-size-desktop);
+  max-width: 48rem;
+}
+
+/* Mobile behavior */
+@media (max-width: 767px){
+  .page-banner{
+    min-height: var(--banner-min-height-mobile);
+    padding-top: var(--banner-padding-top-mobile);
+    padding-bottom: var(--banner-padding-bottom-mobile);
+  }
+
+  .page-banner__content{
+    min-height: calc(
+      var(--banner-min-height-mobile)
+      - var(--banner-padding-top-mobile)
+      - var(--banner-padding-bottom-mobile)
+    );
+    gap: var(--banner-gap-mobile);
+  }
+
+  .page-banner__title{
+    font-size: var(--banner-title-size-mobile);
+  }
+
+  .page-banner__subtitle{
+    display: none;
+  }
 }

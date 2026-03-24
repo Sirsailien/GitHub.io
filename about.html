@@ -35,10 +35,12 @@
 
 
 <!-- About Banner -->
-<section class="pt-32 pb-20 bg-secondary reveal-stagger">
-    <div class="container mx-auto px-6 text-center reveal-stagger">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 text-white" data-i18n="about.banner.title"></h1>
-        <p class="text-xl text-white/90 max-w-3xl mx-auto" data-i18n="about.banner.subtitle"></p>
+<section class="page-banner">
+    <div class="page-banner__inner">
+        <div class="page-banner__content">
+            <h1 class="page-banner__title" data-i18n="about.banner.title"></h1>
+            <p class="page-banner__subtitle" data-i18n="about.banner.subtitle"></p>
+        </div>
     </div>
 </section>
 
@@ -103,7 +105,7 @@
            required
             placeholder=""
             data-i18n-placeholder="about.news.name"
-           class="w-full px-6 py-3 bg-white/10 border border-white/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-black placeholder-black/30">
+           class="w-full px-6 py-3 bg-white/10 border border-white/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-gray-700/90 placeholder-black/30">
   </div>
 
   <div class="sm:flex-1">
@@ -112,7 +114,7 @@
            required
            placeholder=""
             data-i18n-placeholder="about.news.email"
-           class="w-full px-6 py-3 bg-white/10 border border-white/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-black placeholder-black/30">
+           class="w-full px-6 py-3 bg-white/10 border border-white/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent text-gray-700/90 placeholder-black/30">
   </div>
 
   <button type="submit"

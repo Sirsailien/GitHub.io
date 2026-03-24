@@ -37,15 +37,12 @@
 <div id="top-of-page"></div>
 
 <!-- YouTube Videos Banner -->
-<section class="pt-32 pb-20 bg-secondary">
-    <div class="container mx-auto px-6 text-center">
-
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 text-white"
-            data-i18n="youtube.banner.title"></h1>
-
-        <p class="text-xl text-white/90 max-w-3xl mx-auto"
-           data-i18n="youtube.banner.subtitle"></p>
-
+<section class="page-banner">
+    <div class="page-banner__inner">
+        <div class="page-banner__content">
+            <h1 class="page-banner__title" data-i18n="youtube.banner.title"></h1>
+            <p class="page-banner__subtitle" data-i18n="youtube.banner.subtitle"></p>
+        </div>
     </div>
 </section>
 
@@ -59,6 +56,10 @@
 <!-- Video Overlay -->
 <div id="video-overlay" class="fixed inset-0 bg-black/60 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300 flex justify-center items-end z-50">
   <div id="video-box" class="bg-white rounded-t-2xl shadow-2xl w-full max-w-6xl h-[90vh] md:h-[85vh] transform translate-y-full transition-all duration-500 overflow-hidden">
+    <button id="video-close-btn" aria-label="Close video popup"
+  class="absolute top-3 right-3 z-50 w-11 h-11 flex items-center justify-center rounded-full bg-black/60 hover:bg-black/80 text-white text-2xl leading-none backdrop-blur-md transition">
+  &times;
+</button>
     <div class="grid grid-cols-1 md:grid-cols-2 h-full">
 
       <!-- Video -->
