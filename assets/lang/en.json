@@ -354,9 +354,12 @@
     },
     "intro": {
       "title": "Professional E-Learning Solutions",
-      "paragraph1": "Our focus when creating an e-learning module is to combine your needs with our expertise. We help you throughout the entire process, from creating and adjusting the script, to presenting the information to your audience, to giving it the flair and style you want, all the way to releasing it on a platform of your choice. ",
-      "paragraph2": "We want to relate to your audience, not just throw information their way. Our team is focused on giving you the best possible experience while creating your e-learning content, and we have the expertise to make sure your message is delivered in a way that resonates with your audience.",
-      "paragraph3": "A little secret between us: Did you know that research shows that video e-learnings are just as effective as, if not more effective than, in-person training? This all without the trouble of scheduling, traveling costs, absense and not being able to rewind and rewatch the content during lapses of concentration."
+      "paragraph1": "We offer structural help with onboarding, and want to help you save time when teaching and training within your company.",
+      "paragraph2": "Our focus when creating an e-learning module is to combine your needs with our expertise. But, more importantly, to make sure your message actually lands with your target audience.",
+      "paragraph3": "Research shows that video-based e-learning is just as effective as, if not more effective than, in-person training. Without the challenges of scheduling, travel costs, or lost time, and with the added benefit of being able to revisit content whenever needed.",
+      "paragraph4": "Many experts know exactly what they’re talking about, but struggle to present it clearly and in a way that holds attention. We see this happening to a lot of important content, so we wanted to change this. We focus on clarity, structure, and delivery, so your audience doesn’t just watch, but understands and remembers what’s being said. Our expertise lies in communicating all the important information in a way that your targeted audience will remember forever. The result is e-learning content that feels natural to follow, keeps viewers engaged, and reduces the need to repeat the same information over and over and over again.",
+      "paragraph5": "We guide you through the entire process: from shaping and refining the script, to coaching how it’s delivered on camera, to producing a final result that fits your style and can be deployed on any platform. Read more about our process below.",
+      "paragraph6": "If you would like to discuss how we can help you improve your onboarding, internal training, communication about a new workflow you would like to generalize or having to communicate a lot of information to customers, then make an appointment below using our calendar integration. Or, reach out using our contact form."
     },
     "features": {
       "interactive": {
@@ -371,6 +374,15 @@
         "title": "Effective",
         "text": "Proven results"
       }
+    },
+    "process":{
+      "title": "Our process",
+      "paragraph1": "1. First, we discuss all wishes and possibilities that fit within your budget.",
+      "paragraph2": "2. After this, you supply us with the texts and we’ll convert this into a presentable and understandable script that is easy to read from a teleprompter.",
+      "paragraph3": "3. We also offer a crash course in presentation techniques in front of a camera, voice techniques for voice over, or alternatively, we can hire a trained actor to record the lines for you.",
+      "paragraph4": "4. We’ll film on the location of your preference. Do you want to record in a living room, an office or even a filmstudio? All of that is possible.",
+      "paragraph5": "5. In the edit we’ll select the best takes and add all the agreed on texts, pictures, animations and graphics that fit your video.",
+      "paragraph6": "6. Afterwards we can send you the video’s to be used on your platform. But, for a monthly fee, we also offer the possibility to publish your e-learning on a platform selected by us, so that you barely have to do anything for it."
     },
     "booking": {
       "title": "Schedule a Consultation",

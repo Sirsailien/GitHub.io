@@ -61,14 +61,14 @@
     },
     {
       id: 206,
-      video: "./assets/Images/portfolio/Fiction/mistsoftartarus.png", //Mists of Tartarus
+      video: "https://www.youtube.com/embed/S1EGdqoj3NI", //Mists of Tartarus
       i18n: {
         title: "fiction.206.title",
         desc: "fiction.206.desc",
         role: "fiction.206.role",
         credits: ["fiction.206.credit1", "fiction.206.credit2", "fiction.206.credit3", "fiction.206.credit4", "fiction.206.credit5", "fiction.206.credit6"],
       },
-      thumb: "./assets/Images/portfolio/Fiction/mistsoftartarus.png",
+      thumb: null,
     }
   ];
 

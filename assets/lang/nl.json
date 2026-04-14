@@ -342,9 +342,21 @@
     },
     "intro": {
       "title": "Professionele e-learningsontwikkeling",
-      "paragraph1": "Onze focus bij het maken van een e-learningmodule is om jouw behoeften te combineren met onze expertise. We begeleiden je door het hele proces: van het schrijven en aanscherpen van het script, tot het presenteren van de informatie aan je publiek, tot het geven van de flair en stijl die je zoekt, en uiteindelijk het publiceren op een platform naar keuze.",
-      "paragraph2": "We willen aansluiten bij je doelgroep, niet alleen informatie over ze heen gooien. Ons team is erop gericht je de beste ervaring te geven tijdens het maken van je e-learningcontent, en we hebben de expertise om ervoor te zorgen dat je boodschap op een manier wordt overgebracht die aansluit bij jouw publiek.",
-      "paragraph3": "Een klein geheimpje: wist je dat onderzoek laat zien dat video e-learnings net zo effectief zijn, of zelfs effectiever, dan fysieke trainingen? En dat zonder gedoe met plannen, reiskosten, afwezigheid en met de mogelijkheid om terug te spoelen en opnieuw te kijken als je even afgeleid raakt."
+      "paragraph1": "Wij bieden structurele hulp bij onboarding en helpen je door tijd te besparen bij trainingen en opleidingen binnen jouw bedrijf.",
+      "paragraph2": "Onze focus bij het maken van een e-learningmodule is om jouw behoeften te combineren met onze expertise. Nog belangrijker: We zorgen dat je boodschap daadwerkelijk blijft hangen bij je doelgroep.",
+      "paragraph3": "Onderzoek laat zien dat e-learning video net zo effectief is, of zelfs effectiever, dan fysieke trainingen. En dat zonder gedoe met plannen, reiskosten en afwezigheid, maar met de mogelijkheid om terug te spoelen en opnieuw te kijken als je even afgeleid raakt.",
+      "paragraph4": "Veel experts weten precies waar ze het over hebben, maar hebben moeite om hun stof op een duidelijke manier te presenteren. Het is moeilijk voor hun de aandacht vast te houden. Wij zien dit veel gebeuren, ook bij belangrijke inhoud, en willen dit veranderen. Wij focussen op duidelijkheid, structuur en presentatie; zodat je publiek niet alleen kijkt, maar begrijpt en onthoudt wat er gezegd wordt. Onze expertise is vooral het communiceren van alle belangrijke informatie op een manier die de doelgroep zal blijven onthouden. Het resultaat is e-learning content die natuurlijk aanvoelt, die aandacht van kijkers vasthoudt en ervoor zorgt dat dezelfde informatie niet steeds opnieuw moet worden herhaald.",
+      "paragraph5": "Wij nemen je mee in het gehele proces: van het vormen en straktrekken van het script, tot het coachen in hoe iets gepresenteerd moet worden op de camera, tot het produceren van het eindresultaat dat kan worden uitgebracht op elk platform. Meer informatie over ons proces kan je hieronder vinden.",
+      "paragraph6": "Als je wil bespreken hoe we je kunnen helpen met het verbeteren van jouw onboarding, interne trainingen, communicatie over een nieuwe workflow die je bedrijfsbreed wil toepassen of het moeten communiceren van veel informatie naar klanten, maak dan een afspraak hieronder met onze agenda tool. Je kan ons ook benaderen via het contactformulier daarnaast."
+    },
+    "process":{
+      "title": "Ons proces",
+      "paragraph1": "1.Eerst bespreken we alle wensen en mogelijkheden die passen binnen jouw budget.",
+      "paragraph2": "2. Daarna lever jij de teksten aan en zetten wij die om in een presenteerbaar en behapbaar script dat makkelijk te lezen is vanaf een teleprompter.",
+      "paragraph3": "3. We bieden ook een spoedcursus presentatietechnieken voor de camera, stemtechnieken voor voice-over, of we kunnen een getrainde acteur inhuren die de tekst voor je kan inspreken.",
+      "paragraph4": "4. We filmen op de locatie naar jouw wens. Wil je liever opnemen in een huiskamer, op kantoor of zelfs in een filmstudio? Dat is allemaal mogelijk.",
+      "paragraph5": "5. Tijdens de nabewerking selecteren we de beste takes en voegen we de afgesproken teksten, foto’s, animaties en graphics toe die bij jouw video passen.",
+      "paragraph6": "6. Naderhand kunnen we de video’s toesturen om te gebruiken op jouw platform, maar we bieden ook de mogelijkheid om voor een maandelijkse fee je e-learning via het door ons geselecteerde platform te vertonen, zodat je er zelf bijna niets voor hoeft te doen."
     },
     "features": {
       "interactive": {
