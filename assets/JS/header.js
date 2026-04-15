@@ -43,7 +43,7 @@ let headerContent = `
              class="w-7 h-7 transition-transform duration-200 group-hover:scale-110" alt="NL" />
       </button>
 
-      <a href="https://www.shiftingvisuals.com"
+      <a href="https://shiftingvisuals.com"
          target="_blank"
          rel="noopener"
          class="group relative inline-flex items-center"
@@ -111,7 +111,7 @@ const mobileMenuHTML = `
        class="bg-accent hover:bg-accent/90 text-white px-4 py-3 rounded-full font-medium transition-all shadow-lg text-center"
        data-i18n="header.call"></a>    
 
-    <a href="https://www.shiftingvisuals.com"
+    <a href="https://shiftingvisuals.com"
        target="_blank"
        rel="noopener"
        class="group relative inline-flex items-center mobile-menu-icon"
