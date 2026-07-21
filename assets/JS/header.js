@@ -198,6 +198,18 @@ const setHeaderHeightVar = () => {
 
 setHeaderHeightVar();
 window.addEventListener("resize", setHeaderHeightVar);
+
+// Keep --header-height accurate even if the header's size changes after this
+// initial measurement (e.g. web font swapping in, icons rendering, slow
+// network on pages with heavy embeds) instead of relying on a single
+// one-time measurement that can go stale.
+const headerElForObserver = document.querySelector("header");
+if (headerElForObserver && typeof ResizeObserver !== "undefined") {
+  new ResizeObserver(setHeaderHeightVar).observe(headerElForObserver);
+}
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(setHeaderHeightVar);
+}
 // Mobile menu toggle behavior
 (() => {
   const btn = document.getElementById("mobile-menu-btn");

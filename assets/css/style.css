@@ -77,21 +77,44 @@ p {
   box-shadow: 0 35px 90px rgba(0,0,0,0.50);
 
   border-radius: 24px !important;     /* overrides rounded-t-2xl */
-  width: min(92vw, 1100px) !important;
+  width: min(92vw, 1600px) !important;
+  height: 82vh !important;            /* always fill most of the viewport, not just up to it */
   max-height: 82vh !important;        /* avoids touching top/bottom */
-  height: auto !important;
 
   overflow: hidden;
-}
-/* Hero (full) overlay: prevent the modal from collapsing to a thin strip */
-#video-overlay.video-overlay-full #video-box{
-  height: 82vh !important;
-  max-height: 82vh !important;
 }
 
 /* Ensure the video area truly fills that height */
 #video-overlay.video-overlay-full #video-media{
   height: 100% !important;
+}
+
+/* Compact overlay (title only, no credits/desc): video fills all the space
+   the title doesn't need, on every screen size. */
+#video-overlay.video-overlay-compact #video-grid{
+  display: flex !important;
+  flex-direction: column !important;
+}
+#video-overlay.video-overlay-compact #video-media{
+  flex: 1 1 0% !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+#video-overlay.video-overlay-compact #video-text{
+  flex: 0 0 auto !important;
+  height: auto !important;
+  border-left: none !important;
+}
+
+/* Desktop only: let the compact box's width follow the video's own 16:9
+   shape (based on the fixed height) instead of stretching wide and
+   pillarboxing the video. Mobile keeps its existing sizing untouched. */
+@media (min-width: 768px){
+  #video-overlay.video-overlay-compact #video-box{
+    width: auto !important;
+    aspect-ratio: 16 / 9;
+    max-width: min(92vw, 1600px);
+  }
 }
 
 /* Overlay layout */

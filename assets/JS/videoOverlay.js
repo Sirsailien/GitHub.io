@@ -19,6 +19,8 @@
   const mediaWrap = document.getElementById("video-media");
   const nativeVideo = document.getElementById("video-native");
   const closeBtn = document.getElementById("video-close-btn");
+  const creditsHeadingEl = document.getElementById("video-credits-heading");
+  const roleHeadingEl = document.getElementById("video-role-heading");
 
   function getCurrentLang() {
     const htmlLang = (document.documentElement.lang || "").toLowerCase();
@@ -97,23 +99,28 @@
     if (!grid || !textPanel || !mediaWrap) return;
 
     const full = mode === "full";
+    const compact = mode === "compact";
 
     overlay.classList.toggle("video-overlay-full", full);
+    overlay.classList.toggle("video-overlay-compact", compact);
+    textPanel.classList.toggle("hidden", full);
 
-    if (full) {
-      textPanel.classList.add("hidden");
+    if (full || compact) {
       grid.classList.remove("md:grid-cols-2");
       grid.classList.add("md:grid-cols-1");
-
-      mediaWrap.classList.remove("h-[40vh]");
-      mediaWrap.classList.add("h-full");
     } else {
-      textPanel.classList.remove("hidden");
       grid.classList.remove("md:grid-cols-1");
       grid.classList.add("md:grid-cols-2");
+    }
 
+    if (full) {
+      mediaWrap.classList.remove("h-[40vh]", "md:h-full");
+      mediaWrap.classList.add("h-full");
+    } else if (!compact) {
+      // Compact sizing is handled entirely by the .video-overlay-compact
+      // CSS rules (they need to win over the mobile media query too).
       mediaWrap.classList.remove("h-full");
-      mediaWrap.classList.add("h-[40vh]");
+      mediaWrap.classList.add("h-[40vh]", "md:h-full");
     }
   }
 
@@ -146,7 +153,7 @@
       return;
     }
 
-    setLayout(data.layout || "split");
+    setLayout(data.layout || (data.compact ? "compact" : "split"));
     stopMedia();
 
     const isMp4 = data.type === "mp4" || /\.mp4(\?.*)?$/i.test(String(data.video));
@@ -183,6 +190,13 @@
     titleEl.setAttribute("data-i18n", data.title_i18n || "");
     descEl.setAttribute("data-i18n", data.desc_i18n || "");
     roleEl.setAttribute("data-i18n", data.role_i18n || "");
+
+    const compact = !!data.compact;
+    descEl.classList.toggle("hidden", compact);
+    roleEl.classList.toggle("hidden", compact);
+    if (roleHeadingEl) roleHeadingEl.classList.toggle("hidden", compact);
+    if (creditsHeadingEl) creditsHeadingEl.classList.toggle("hidden", compact);
+    creditsEl.classList.toggle("hidden", compact);
 
     creditsEl.innerHTML = "";
     const creditKeys = Array.isArray(data.credits_i18n) ? data.credits_i18n : [];
