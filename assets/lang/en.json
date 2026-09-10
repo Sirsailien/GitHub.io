@@ -387,6 +387,9 @@
     },
     "videos": {
       "title": "Learn about our Process",
+      "1": {
+        "title": "The Kick Off Meeting"
+      },
       "2": {
         "title": "Our Process"
       }

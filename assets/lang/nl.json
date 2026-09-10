@@ -361,6 +361,9 @@
     },
     "videos": {
       "title": "Maak kennis met ons Proces",
+      "1": {
+        "title": "De Voorbespreking"
+      },
       "2": {
         "title": "Ons Proces"
       }

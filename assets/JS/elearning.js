@@ -5,6 +5,14 @@
 
   const videos = [
     {
+      id: 1,
+      video: "https://www.youtube.com/embed/pZPFBbQA0FY", //E-Learning over E-Learning #1: De Voorbespreking
+      i18n: {
+        title: "elearning.videos.1.title",
+      },
+      thumb: null,
+    },
+    {
       id: 2,
       video: "https://www.youtube.com/embed/Stngh49Mypc", //E-Learning over E-Learning #2: Het Proces
       i18n: {
