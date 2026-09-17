@@ -20,6 +20,14 @@
       },
       thumb: null,
     },
+    {
+      id: 4,
+      video: "https://www.youtube.com/embed/klHRP2RhcT0", //E-Learning over E-Learning #4: Het Script
+      i18n: {
+        title: "elearning.videos.4.title",
+      },
+      thumb: null,
+    },
   ];
 
   function extractYouTubeId(embedUrl) {
