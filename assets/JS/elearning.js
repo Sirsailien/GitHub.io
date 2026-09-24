@@ -28,6 +28,14 @@
       },
       thumb: null,
     },
+    {
+      id: 5,
+      video: "https://www.youtube.com/embed/25nmbFPEbRo", //E-Learning over E-Learning #5: Presentatietechnieken en Voice Over
+      i18n: {
+        title: "elearning.videos.5.title",
+      },
+      thumb: null,
+    },
   ];
 
   function extractYouTubeId(embedUrl) {
