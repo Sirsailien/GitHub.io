@@ -36,6 +36,14 @@
       },
       thumb: null,
     },
+    {
+      id: 6,
+      video: "https://www.youtube.com/embed/MTEdSSFKKU4", //E-Learning over E-Learning #6: De Locatie
+      i18n: {
+        title: "elearning.videos.6.title",
+      },
+      thumb: null,
+    },
   ];
 
   function extractYouTubeId(embedUrl) {
