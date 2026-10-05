@@ -44,6 +44,14 @@
       },
       thumb: null,
     },
+    {
+      id: 7,
+      video: "https://www.youtube.com/embed/1u29fGzBeCk", //E-Learning over E-Learning #7: Nabewerking & Publicatie
+      i18n: {
+        title: "elearning.videos.7.title",
+      },
+      thumb: null,
+    },
   ];
 
   function extractYouTubeId(embedUrl) {
